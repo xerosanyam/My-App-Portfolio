@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="My Nanodegree Apps!"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/MyButtons"
+                android:drawableLeft="@drawable/spotify"
+                android:text="@string/button1" />
+
+            <Button
+                style="@style/MyButtons"
+                android:drawableLeft="@drawable/scores"
+                android:text="@string/button2" />
+
+            <Button
+                style="@style/MyButtons"
+                android:drawableLeft="@drawable/library"
+                android:text="@string/button3" />
+
+            <Button
+                style="@style/MyButtons"
+                android:drawableLeft="@drawable/build"
+                android:text="@string/button4" />
+
+            <Button
+                style="@style/MyButtons"
+                android:drawableLeft="@drawable/xyz"
+                android:text="@string/button5" />
+
+            <Button
+                style="@style/MyButtons"
+                android:drawableLeft="@drawable/own"
+                android:text="@string/button6" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
